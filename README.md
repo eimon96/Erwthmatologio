@@ -32,6 +32,6 @@ ALCATEL 1S (TCL 5024D_EEA 9.0 API 28)
 
 ---------------------------------------------------------------------
 
-# Play Store Download Link:
+# Play Store Download Link (διαθέσιμο μόνο στην Ελλάδα):
 
 https://play.google.com/store/apps/details?id=com.e.erwthmatologio
