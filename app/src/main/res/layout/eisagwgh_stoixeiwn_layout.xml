@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/TvTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/white_b6"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/TvTitle2"
+        android:textAlignment="center"
+        android:textColor="@color/yellow_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/TvOnoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/TvOnoma"
+        android:textColor="@color/red_ce"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/TvTitle2" />
+
+    <EditText
+        android:id="@+id/EtOnoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/EtOnoma"
+        android:maxLength="19"
+        android:singleLine="true"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yellow_db"
+        android:textColorHint="@color/white_ec"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TvOnoma"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/TvOnoma" />
+
+    <TextView
+        android:id="@+id/TvEponumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/TvEponumo"
+        android:textColor="@color/red_ce"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/TvOnoma"
+        app:layout_constraintTop_toBottomOf="@+id/TvOnoma" />
+
+    <EditText
+        android:id="@+id/EtEponumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/EtEponumo"
+        android:maxLength="19"
+        android:singleLine="true"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yellow_db"
+        android:textColorHint="@color/white_ec"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/EtOnoma"
+        app:layout_constraintTop_toBottomOf="@+id/EtOnoma" />
+
+    <TextView
+        android:id="@+id/TvAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/TvAM"
+        android:textColor="@color/red_ce"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/TvEponumo"
+        app:layout_constraintTop_toBottomOf="@+id/TvEponumo" />
+
+    <EditText
+        android:id="@+id/EtAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/EtAM"
+        android:inputType="number"
+        android:maxLength="5"
+        android:singleLine="true"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yellow_db"
+        android:textColorHint="@color/white_ec"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/EtEponumo"
+        app:layout_constraintTop_toBottomOf="@+id/EtEponumo" />
+
+    <TextView
+        android:id="@+id/TvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/TvInfo"
+        android:textAlignment="center"
+        android:textColor="@color/yellow_db"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/BtEkkinhsh" />
+
+    <Button
+        android:id="@+id/BtEkkinhsh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red_dark"
+        android:shadowColor="@color/white_b6"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/BtEkkinhsh"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,4:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline1"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId=""-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent" >-->
+<!--    </com.google.android.gms.ads.AdView>-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

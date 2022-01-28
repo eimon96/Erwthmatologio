@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Erwthmatologio</string>
+
+    <string name="title">Ερωτηματολόγιο</string>
+    <string name="author1">Penny Simitsi</string>
+    <string name="author2"></string>
+    <string name="next">Επομενο</string>
+    <string name="TvOnoma">Όνομα:</string>
+    <string name="EtOnoma">Θωμάς</string>
+    <string name="TvEponumo">Επώνυμο:</string>
+    <string name="EtEponumo">Άντερσον</string>
+    <string name="TvTitle2">Στοιχεία Εξεταζόμενου</string>
+    <string name="TvAM">AM:</string>
+    <string name="EtAM">22666</string>
+    <string name="BtEkkinhsh">Εκκινηση!</string>
+    <string name="TvTitleQ">Ερώτηση 0</string>
+    <string name="BtPrev"><![CDATA[<<]]></string>
+    <string name="BtNext"><![CDATA[>>]]></string>
+    <string name="BtKataxwrhsh">Καταχωρηση</string>
+    <string name="Erwthsh">To be or not to be?</string>
+    <string name="Apanthsh1">To be</string>
+    <string name="Apanthsh2">Not to be</string>
+    <string name="Apanthsh3">Tou Koube, του ρουμποκομπολογή, βγήκε να ρουμπέψει, να κουμπέψει, να ρουμποκομπολογέψει, και τον πιάσαν οι ρουμπήδες, οι κουμπήδες, οι ρουμποκομπολογήδες</string>
+    <string name="Apanthsh4">No one cares (nihilist)</string>
+    <string name="TvResults">Αποτελέσματα</string>
+    <string name="TVStoixeiaFoithth">Θωμάς Άντερσον 22666</string>
+    <string name="TvScore">Σκορ:</string>
+    <string name="TvScoreNum">4.5</string>
+    <string name="TvDate">1/1/2022 04:20</string>
+    <string name="TvTimer">000</string>
+    <string name="TvInfo">Πόσο χρόνο έχεις</string>
+
+</resources>
