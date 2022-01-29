@@ -32,6 +32,11 @@ ALCATEL 1S (TCL 5024D_EEA 9.0 API 28)
 
 ---------------------------------------------------------------------
 
+
+<img src="https://i.imgur.com/NEFNMUn.png" width="180" height="370"> <img src="https://i.imgur.com/iNe2dAM.png" width="180" height="370"> <img src="https://i.imgur.com/LkR88cV.jpg" width="180" height="370">
+
+---------------------------------------------------------------------
+
 # Play Store Download Link (διαθέσιμο μόνο στην Ελλάδα):
 
 https://play.google.com/store/apps/details?id=com.e.erwthmatologio
